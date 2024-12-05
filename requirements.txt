@@ -1,0 +1,7 @@
+torch
+streamlit
+joblib
+langchain
+langchain_community
+transformers
+llama_index
