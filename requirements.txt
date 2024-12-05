@@ -4,4 +4,4 @@ joblib
 langchain
 langchain_community
 transformers
-llama-index
+llama-index==0.6.10
