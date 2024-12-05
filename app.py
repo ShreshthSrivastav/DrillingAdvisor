@@ -25,7 +25,7 @@ import langchain
 
 #When deployed on huggingface spaces, this values has to be passed using Variables & Secrets setting, as shown in the video :)
 #import os
-#os.environ["OPENAI_API_KEY"] = "sk-PLfFwPq6y24234234234FJ1Uc234234L8hVowXdt"
+
 
 # from langchain.llms import HuggingFaceEndpoint
 from langchain_community.llms import HuggingFaceEndpoint
@@ -42,7 +42,7 @@ st.header("Drilling Advisory System Using LLMs")
 
 import os
 # api_key = st.sidebar.text_input('Hugging Face API Key:', type='password') 
-# os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+
 # if api_key:
 #     os.environ["HUGGINGFACEHUB_API_TOKEN"] = api_key
 
@@ -209,7 +209,7 @@ import os
 # api_key = st.sidebar.text_input('Hugging Face API Key:', type='password') 
 
 # Set your Hugging Face API token
-# os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+
 # os.environ["HUGGINGFACEHUB_API_TOKEN"] = api_key
 
 
