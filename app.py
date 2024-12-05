@@ -234,6 +234,7 @@ top_k = 1  # Define top_k here
 # Load the Vector Index only once
 if 'index' not in st.session_state:
     print("Loading Vector Index...")
+    #storage_context = StorageContext.from_defaults(persist_dir="VectorStore_rag")
     storage_context = StorageContext.from_defaults(persist_dir="VectorStore_rag")
     st.session_state.index = load_index_from_storage(storage_context=storage_context)
     print("Vector Index loaded successfully.")
