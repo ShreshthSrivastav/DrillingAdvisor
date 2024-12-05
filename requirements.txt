@@ -4,4 +4,4 @@ joblib
 langchain
 langchain_community
 transformers
-llama_index
+llama-index
