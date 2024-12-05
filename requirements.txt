@@ -1,9 +1,9 @@
 torch==1.13.1
 streamlit==1.39.0
-joblib
+joblib==1.4.2
 langchain==0.3.7
-langchain_community
-transformers
+langchain-community==0.3.5
+transformers==4.45.1
 llama-index==0.11.19
 llama-index-embeddings-huggingface==0.3.1
 llama-index-core==0.11.19
