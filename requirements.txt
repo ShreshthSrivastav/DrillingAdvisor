@@ -1,7 +1,7 @@
 
 streamlit==1.39.0
 joblib==1.4.2
-langchain-community==0.3.5
+langchain-community
 transformers==4.45.1
 llama-index==0.11.19
 llama-index-embeddings-huggingface==0.3.1
